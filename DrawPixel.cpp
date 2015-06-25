@@ -1,18 +1,18 @@
 /*#include "DxLib.h"
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int){
-	ChangeWindowMode(TRUE), DxLib_Init(), SetDrawScreen(DX_SCREEN_BACK); //ƒEƒBƒ“ƒhƒEƒ‚[ƒh•ÏX‚Æ‰Šú‰»‚Æ— ‰æ–Êİ’è
+	ChangeWindowMode(TRUE), DxLib_Init(), SetDrawScreen(DX_SCREEN_BACK); //ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ãƒ¢ãƒ¼ãƒ‰å¤‰æ›´ã¨åˆæœŸåŒ–ã¨è£ç”»é¢è¨­å®š
 
 	int image[16];
-	LoadDivGraph("c1.png", 28, 7, 4, 128, 128, image); // ‰æ‘œ‚Ì•ªŠ„“Ç‚İ‚İ
+	LoadDivGraph("c1.png", 28, 7, 4, 128, 128, image); // ç”»åƒã®åˆ†å‰²èª­ã¿è¾¼ã¿
 
-	// while(— ‰æ–Ê‚ğ•\‰æ–Ê‚É”½‰f, ƒƒbƒZ[ƒWˆ—, ‰æ–ÊƒNƒŠƒA)
+	// while(è£ç”»é¢ã‚’è¡¨ç”»é¢ã«åæ˜ , ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸å‡¦ç†, ç”»é¢ã‚¯ãƒªã‚¢)
 	while (ScreenFlip() == 0 && ProcessMessage() == 0 && ClearDrawScreen() == 0){
 
-		DrawGraph(100, 100, image[9], TRUE);      // ‰æ‘œ‚ğ•\¦
+		DrawGraph(100, 100, image[9], TRUE);      // ç”»åƒã‚’è¡¨ç¤º
 
 	}
 
-	DxLib_End(); // DXƒ‰ƒCƒuƒ‰ƒŠI—¹ˆ—
+	DxLib_End(); // DXãƒ©ã‚¤ãƒ–ãƒ©ãƒªçµ‚äº†å‡¦ç†o
 	return 0;
 }*/
